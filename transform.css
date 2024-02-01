@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFF5E4;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+.out{
+    border-style:unset;
+    background-color:#DCF2F1;
+    width: 11rem;
+    height: 7rem;
+    position: relative;
+}
+.back{
+    background-color: #7FC7D9;
+    width: 5rem;
+    height: 5rem;  
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+}
+.in{
+    background-color:#365386c7 ;
+    width: 5rem;
+    height: 5rem;
+    transition: all .5s;
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    z-index: 1;
+}
+#in1:hover{
+    transform: rotate(50deg);
+}
+#in2:hover{
+    transform:scaleY(.8) ;
+}
+#in3:hover{
+    transform: scaleX(.7);
+}
+#in4:hover{
+    transform: scale(2,2);
+}
+#in5:hover{
+    transform: scaleX(2);
+}
+#in6:hover{
+    transform: scaleY(2);
+}
+#in7:hover{
+    transform: skewX(40deg);
+}
+#in8:hover{
+    transform: skewY(40deg)
+}
+#in9:hover{
+    transform: translate(2rem,.75rem);
+}
+#in10:hover{
+    transform: translate(2rem);
+}
+#in11:hover{
+    transform: translateY(2rem);
+}
+#in12:hover{
+    transform: scale(2) skewY(40deg) translate(1rem,-1.5rem) ;
+}
+#in13:hover{
+    transform:perspective(5rem) rotatex(50deg) ;
+    
+}
+#in14:hover{
+    transform:perspective(5rem) rotateY(50deg) ;
+}
+#in15:hover{
+    transform: rotateZ(50deg);
+    transform-origin: top right;
+}
+#in16:hover{
+    transform:rotateZ(50deg);
+    transform-origin: left bottom;
+}
+#in17:hover{
+    transform:perspective(5rem) rotateX(25deg) ;
+    transform-origin: bottom;
+}
+#in18:hover{
+    transform:perspective(10rem) rotateX(65deg) ;
+    transform-origin: top;
+}
+#in19:hover{
+    transform: perspective(10rem) rotateY(35deg);
+    transform-origin: left;
+}
+#in20:hover{
+    transform: perspective(12rem) rotateY(56deg);
+    transform-origin: right;
+}
+#in21:hover{
+    transform: scale(2);
+    transform-origin: top right;
+}
+#in22:hover{
+    transform: scale(2);
+    transform-origin: bottom left;
+}
+#in23:hover{
+    transform: scaleX(2);
+    transform-origin: right;
+}
+#in24:hover{
+    transform: scaleX(2);
+    transform-origin: left;
+}
+#in25:hover{
+    transform: scaleY(2);
+    transform-origin: top;
+}
+#in26:hover{
+    transform: scaleY(2);
+    transform-origin: bottom;
+}
