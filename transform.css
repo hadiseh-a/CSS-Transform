@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FFF5E4;
+    background-color: #BBE1FA;
 }
 .container{
     display: flex;
@@ -12,7 +12,7 @@ body{
     margin: 1rem;
 }
 .out{
-    border-style:unset;
+    border-style:outset;
     background-color:#DCF2F1;
     width: 11rem;
     height: 7rem;
@@ -73,15 +73,17 @@ body{
     transform: scale(2) skewY(40deg) translate(1rem,-1.5rem) ;
 }
 #in13:hover{
-    transform:perspective(5rem) rotatex(50deg) ;
-    
+    transform:perspective(5rem) rotatex(50deg) ;  
 }
 #in14:hover{
     transform:perspective(5rem) rotateY(50deg) ;
 }
+.back15:hover{
+    transform-origin:top right ;
+}
 #in15:hover{
     transform: rotateZ(50deg);
-    transform-origin: top right;
+    /* transform-origin: top right; */
 }
 #in16:hover{
     transform:rotateZ(50deg);
